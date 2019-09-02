@@ -19,13 +19,13 @@
 3. Multiply the predicted mask and heat map with input mask.
 	* By ~/EM/VesicleSeg/multiply.py
 	* Output to /mnt/pfister_lab2/yubin/vesicleNew/vesicle_18_track/mask_result
-		Pred: heat map in npy format
-Mask: predicted mask by 0.3 threshold.
-Use watershed to cut heat map into vesicles. (Two-step Watershed)
-By ~/EM/VesicleSeg/NeuroG/post_process.py
-Output to  /mnt/pfister_lab2/yubin/vesicleNew/vesicle_18_track/wshed_result
-Data: segmentations in npy format
-Img: matplotlib images of segmentation result 
-Analyze the final 3D bounding box of synapse seg and prepare to display format.
-By ~/EM/VesicleSeg/final_step.py
+		- Pred: heat map in npy format
+		- Mask: predicted mask by 0.3 threshold.
+4. Use watershed to cut heat map into vesicles. (Two-step Watershed)
+	* By ~/EM/VesicleSeg/NeuroG/post_process.py
+	* Output to  /mnt/pfister_lab2/yubin/vesicleNew/vesicle_18_track/wshed_result
+		- Data: segmentations in npy format
+		- Img: matplotlib images of segmentation result 
+5. Analyze the final 3D bounding box of synapse seg and prepare to display format.
+	* By ~/EM/VesicleSeg/final_step.py
 
