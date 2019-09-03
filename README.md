@@ -1,6 +1,6 @@
 ## 2D Vesicle Segmentation
 
-!(./static/project.png)[]
+![](./static/project.png)
 
 Main framework of training and inference code comes from [C-3-Framework](https://github.com/gjy3035/C-3-Framework). The original liscense is included under `./liscense`
 
