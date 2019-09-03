@@ -1,5 +1,7 @@
 ## 2D Vesicle Segmentation
 
+!(./static/project.png)[]
+
 Main framework of training and inference code comes from [C-3-Framework](https://github.com/gjy3035/C-3-Framework). The original liscense is included under `./liscense`
 
 ### Environment
@@ -20,6 +22,10 @@ Main framework of training and inference code comes from [C-3-Framework](https:/
 * `cd ./training`
 * `python train.py`
 * Results will be stored at `./training/exp/`. Tensorboard can be used to visualize the result by `tensorboard --logdir=exp --port=6006`
+
+### Pretrained Model
+* Pretrained model can be obtained from [google drive](https://drive.google.com/open?id=1Z864m14b8nygVE3Rv-dI1zzXuc5uh7ZJ)
+* Download to default position at `./model`
 
 ### Inference
 `cd ./inference`
