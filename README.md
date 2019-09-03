@@ -10,6 +10,10 @@ Main framework of training and inference code comes from [C-3-Framework](https:/
 	* Perhaps some packages like h5py need to be installed after above command. `pip install h5py`
 
 ### Data Preparation
+* `cd ./data`
+* Modify settings in `./data/config.py`
+* Run `python 0_augment.py` to do augmentation manually.
+* Run `python 1_data_prepared.py` to split sugmented data into train, valid, test datasets.
 
 ### Training
 * Modify settings in `./training/config.py`
