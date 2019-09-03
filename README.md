@@ -22,7 +22,7 @@ Main framework of training and inference code comes from [C-3-Framework](https:/
 * Results will be stored at `./training/exp/`. Tensorboard can be used to visualize the result by `tensorboard --logdir=exp --port=6006`
 
 ### Inference
-`cd ./inference`
+```cd ./inference```
 1. Synapse locations to input images and masks.
 	* By `python 0_synapse_gen.py`
 	* Output to `OUTPUT_DIR` defined in `./code/config.py`, including:
