@@ -1,3 +1,4 @@
 /model/
 /code/*.pyc
 /code/utils/*.pyc
+*.pyc
