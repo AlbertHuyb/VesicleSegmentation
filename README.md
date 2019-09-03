@@ -3,7 +3,7 @@
 * a 2D segmentation problem.
 ### Challenge: 
 * need more annotated data to do training work.
-### Predicion Pipeline:
+### PredicTion Pipeline:
 1. Synapse locations to input images and masks.
 	* By `python ./code/0_synapse_gen.py`
 	* Output to `OUTPUT_DIR` defined in `./code/config.py`, including:
