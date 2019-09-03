@@ -1,9 +1,14 @@
 ## 2D Vesicle Segmentation
-### Problem: 
-* a 2D segmentation problem.
-### Challenge: 
-* need more annotated data to do training work.
-### PredicTion Pipeline:
+
+Main framework of training and inference code comes from [gjy3035/C-3-Framework](https://github.com/gjy3035/C-3-Framework). The original liscense is included under `./liscense`
+
+### Environment
+* Follow [gjy3035/C-3-Framework](https://github.com/gjy3035/C-3-Framework)
+	* Python 3.x
+	* Pytorch 1.0 (some networks only support 0.4): http://pytorch.org .
+	* other libs in requirements.txt, run pip install -r requirements.txt.
+	* Perhaps some packages like h5py need to be installed after above command. `pip install h5py`
+### Prediction Pipeline:
 1. Synapse locations to input images and masks.
 	* By `python ./code/0_synapse_gen.py`
 	* Output to `OUTPUT_DIR` defined in `./code/config.py`, including:
