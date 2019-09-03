@@ -12,7 +12,7 @@
 		- dir `mask`: binary mask
 2. Use trained model to predict the heat map.
 	* By `python ./code/1_test_all.py`.
-	*  Predict with the model directed by `./code/config.py`. Output to `OUTPUT_DIR/result`, including:
+	*  Predict with `MODEL_DIR/MODEL_NAME` directed by `./code/config.py`. Output to `OUTPUT_DIR/result`, including:
 		- dir `pred`: heat map in npy format
 		- dir `mask`: predicted mask by 0.3 threshold
 		- dir `gt`: empty
