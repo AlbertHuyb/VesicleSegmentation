@@ -1,4 +1,4 @@
-## 2D Vesicle Segmentation
+## 2D Vesicle Instance Segmentation
 
 ![](./static/project.png)
 
